@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/Crypt-OpenSSL-RSA/  .+/Crypt-OpenSSL-RSA-v?(\d[\d._]*)\.(?:tar\.gz|tar\.bz1|tgz|zip)

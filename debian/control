@@ -1,0 +1,23 @@
+Source: libcrypt-openssl-rsa-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>
+Build-Depends: debhelper (>= 6), libcrypt-openssl-random-perl, libssl-dev, quilt,
+ libcrypt-openssl-bignum-perl
+Standards-Version: 3.7.3
+Homepage: http://perl-openssl.sourceforge.net/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libcrypt-openssl-rsa-perl/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-perl/trunk/libcrypt-openssl-rsa-perl/
+
+Package: libcrypt-openssl-rsa-perl
+Architecture: any
+Depends: libcrypt-openssl-bignum-perl, ${shlibs:Depends}, ${misc:Depends},
+ ${perl:Depends}
+Description: Perl module providing basic RSA functionality
+ Provides a glue to the RSA functions in the OpenSSL library. In
+ particular, it provides the following functionalities: create a key from
+ a string, make a new key, save key to a string, save public portion of
+ key to a string using format compatible with OpenSSL's command-line rsa
+ tool, encrypt, decrypt, sign, verify, return the size in bytes of a key,
+ check the validity of a key.
