@@ -1,2 +1,0 @@
-perl:Depends=perlapi-5.8.8, perl (>= 5.8.8-4)
-shlibs:Depends=libc6 (>= 2.3.6-6), libssl0.9.8 (>= 0.9.8a-1)
