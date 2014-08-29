@@ -5,14 +5,14 @@ Uploaders: Damyan Ivanov <dmn@debian.org>,
            Salvatore Bonaccorso <carnil@debian.org>
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 7),
+Build-Depends: debhelper (>= 9.20120312~),
                perl,
                libssl-dev,
                libcrypt-openssl-random-perl,
                libcrypt-openssl-bignum-perl
-Standards-Version: 3.9.2
+Standards-Version: 3.9.5
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libcrypt-openssl-rsa-perl.git
-Vcs-Git: git://git.debian.org/pkg-perl/packages/libcrypt-openssl-rsa-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libcrypt-openssl-rsa-perl.git
 Homepage: http://perl-openssl.sourceforge.net/
 
 Package: libcrypt-openssl-rsa-perl
